@@ -50,8 +50,8 @@ internal class MatchStarter(
         {
             _communicationStarted = false;
             LaunchManager.LaunchRocketLeague(
-                matchSettings.Launcher,
-                matchSettings.GamePath,
+                //matchSettings.Launcher,
+                //matchSettings.GamePath,
                 gamePort
             );
         }
